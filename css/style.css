@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    padding-top: 40px;
+}
+
+
+.header a {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    padding: 0 15px;
+
+}
+
+#hero {
+    background: url("../img/c1.png") no-repeat center/cover;
+    min-height: 100vh;
+}
+
+.hero-block {
+    width: 468px;
+    height: 604px;
+    position: absolute;
+    right: 100px;
+
+
+    background: rgba(0, 0, 0, 0.51);
+    border: 1px solid white;
+    top: 50px;
+    border-radius: 20px;
+}
+
+.hero-block-title {
+    font-family: 'Roboto,', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.hero-block-item {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    margin-left: 45px;
+
+}
+.hero-block-input {
+    width: 350px;
+    height: 65px;
+    background: rgba(255, 255, 255, 0.26);
+    border: 2px solid #CCAA90;
+    box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.26), -10px -10px 24px rgba(0, 0, 0, 0.26);
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+    padding-left: 15px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+.hero-block-btn {
+    width: 370px;
+    height: 65px;
+    margin-top: 15px;
+    margin-left: 45px;
+    background: #FF903C;
+    border: 2px solid #CCAA90;
+    box-shadow: 10px 10px 18px rgba(255, 255, 255, 0.26), -10px -10px 24px rgba(255, 255, 255, 0.26);
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+.hero-block-cale {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+
+}
+.hero-ccirkle {
+    width: 75px;
+    height: 75px;
+    background: #FF6F00;
+    border: 1px solid #FF6F00;
+    box-shadow: 1px 1px 15px #FF6F00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-gen {
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    padding-top: 180px;
+    margin-left: 100px;
+
+
+}
